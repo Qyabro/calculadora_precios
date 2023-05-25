@@ -70,7 +70,7 @@ lblPrecioF.grid(row=5,column=2,padx=1,pady=1)
 
 precio_final=Label(miFrame)
 precio_final.grid(row=5,column=3,padx=1,pady=1)
-precio_final.config(bg="blue", fg="white", font=("Verdana",12),pady=5, width=15)
+precio_final.config(bg="#E1E43A", fg="black", font=("Verdana",12),pady=3, width=15)
 
 botonCalcular = Button(miFrame,text="CALCULAR",width=10,command=realizar_calculo)
 botonCalcular.grid(row=5,column=4,padx=10,pady=1)
