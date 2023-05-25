@@ -5,6 +5,8 @@ from tkinter import ttk
 
 # Funcion que calcula el precio
 def realizar_calculo():
+
+	#Se usa el metodo GET de Tkinter para extraer los datos ingresados en las cajas de texto
 	cant = int(cantidad.get())      #CANTIDAD --> Se toma el valor ingresado y se pasa a entero
 	p_inicial = int(precio.get())   #PRECIO --> Se toma el valor ingresado y se pasa a entero
 	tarj = menu.get()			    #TARJETA --> Se toma el dato de la tarjeta
@@ -38,6 +40,7 @@ def realizar_calculo():
 
 #---------------- Interfaz Grafica --------------------------------
 ventana_principal = Tk()
+ventana_principal.geometry("400x120")
 
 
 miFrame = Frame(ventana_principal)
@@ -67,7 +70,7 @@ lblPrecioF.grid(row=5,column=2,padx=1,pady=1)
 
 precio_final=Label(miFrame)
 precio_final.grid(row=5,column=3,padx=1,pady=1)
-precio_final.config(background="white", fg="black", width=15)
+precio_final.config(bg="blue", fg="white", font=("Verdana",12),pady=5, width=15)
 
 botonCalcular = Button(miFrame,text="CALCULAR",width=10,command=realizar_calculo)
 botonCalcular.grid(row=5,column=4,padx=10,pady=1)
