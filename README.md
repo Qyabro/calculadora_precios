@@ -1,7 +1,7 @@
 # 💲Calculadora de descuentos de precios 💲
+##### Andres Mejia  
 
-
-
+***
 ## Descripción
 Esta aplicación permite recalcular el precio final que debe cobrarse a un cliente de acuerdo a la cantidad de productos que adquiere y si realiza su pago con tarjeta de credito, obteniendo descuentos de acuerdo a las siguientes condiciones:
 
@@ -12,33 +12,34 @@ Esta aplicación permite recalcular el precio final que debe cobrarse a un clien
 
 > Para las demas opciones, no se aplicará descuento.
 
+***
 ## Funcionamiento
 
 ### Ejecutar la app
-Debe ubicarse la carpeta donde esté almacenada la app `Precios.pyw` y ejeutarla con doble clic:
+Debe ubicarse la carpeta donde esté almacenada la app `Precios.pyw` y ejeutarla con doble clic:  
 ![Abrir App](./img0.png)
 
 ### Ventana Inicial
-Se apreciará la siguiente ventana para ingresar la información:
+Se apreciará la siguiente ventana para ingresar la información:  
 ![Apertura App](./img1.png)
 
 ### Cantidad de articulos
-Ingresar la cantidad de articulos teniendo en cuenta las [condiciones](#descripción) de descuento:
+Ingresar la cantidad de articulos teniendo en cuenta las [condiciones](#descripción) de descuento:  
 ![Cantidad Articulos](./img2.png)
 
 ### Precio sin descuento
-Ingrese el precio sin aplicar ningun descuento, teniendo en cuenta las  [condiciones](#descripción):
+Ingrese el precio sin aplicar ningun descuento, teniendo en cuenta las  [condiciones](#descripción):  
 ![Cantidad Articulos](./img3.png)
 
 ### Pago con tarjeta
-Elija si el pago se realizará con tarjeta o no, teniendo en cuenta las  [condiciones](#descripción):
+Elija si el pago se realizará con tarjeta o no, teniendo en cuenta las  [condiciones](#descripción):  
 ![Cantidad Articulos](./img4.png)
 
 ### Precio con descuento
-De clic en el boton ***CALCULAR*** para obtener el precio a pagar de acuerdo a las  [condiciones](#descripción):
+De clic en el boton ***CALCULAR*** para obtener el precio a pagar de acuerdo a las  [condiciones](#descripción):  
 ![Cantidad Articulos](./img5.png)
 
-
+***
 ## Codigo
 
 ```Python
@@ -119,3 +120,5 @@ botonCalcular.grid(row=5,column=4,padx=10,pady=1)
 
 ventana_principal.mainloop()
 ```
+
+***
